@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>INDEX</title>
+</head>
+<body>
+    <div class="oculto_mar mar " id="marp">
+        <div class="oculto_error error_campo"  id="error">
+            <p>RELLENA TODOS LOS CAMPOS</p>
+        </div>
+    </div>
+    <header>
+        <h1>DIRECTORIO</h1>
+    </header>
+    
+    <main>
+        <section class="formulario">
+            <h2>FORMULARIO</h2>
+            <form action="" id="formulario">
+                <label for="nombre">NOMBRE:
+                    <input type="text" name="nombre" placeholder="Nombre completo">
+                </label>
+                <label for="telefono">TELÉFONO:
+                    <input type="text" name="telefono" placeholder="Numero de telefono">
+                </label>
+                <label for="correo">CORREO:
+                    <input type="text" name="correo" placeholder="Correo electronico">
+                </label>
+                <label for="correo">FOTO:
+                    <input type="text" name="foto" >
+                </label>
+                <div>
+                    <button id="btnguardar">Guardar</button>
+                    <button id="btncancelar">Cancelar</button>
+                </div>
+            </form>
+        </section>
+        <section class="lista">
+            <h2>Lista</h2>
+            <section class="listaAmigos">
+            </section>
+        </section>
+    </main>
+    <div class="oculto detallesAmigo" id="detallesAmigo">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
